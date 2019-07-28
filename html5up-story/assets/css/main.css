@@ -3455,9 +3455,17 @@ input, select, textarea {
 		justify-content: flex-end;
 		position: relative;
 		text-align: left;
-		overflow-x: hidden;
+    overflow-x: hidden;
+    background: #689581;
+    color: white;
 	}
-
+  h1 {
+    color:white;;
+  }
+  .banner a {
+    color: #504055;
+    text-decoration: none;
+  }
 		.banner.style1 .content {
 			padding: 7rem 7rem 5rem 7rem ;
 			-moz-align-self: center;
