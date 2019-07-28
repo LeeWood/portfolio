@@ -2237,9 +2237,12 @@ input, select, textarea {
 			}
 
 /* Form */
-
+    
 	form {
-		margin: 0 0 2rem 0;
+    margin: 0 0 2rem 0;
+    background: white;
+    border-radius: 1rem;
+    padding: 15px;
 	}
 
 		form > :last-child {
@@ -2257,7 +2260,9 @@ input, select, textarea {
 			flex-wrap: wrap;
 			width: calc(100% + 3rem);
 			margin: -1.5rem 0 2rem -1.5rem;
-		}
+    }
+    
+
 
 			form > .fields > .field {
 				-moz-flex-grow: 0;
@@ -7220,6 +7225,10 @@ input, select, textarea {
 	}
 
 /* Wrapper (style1) */
+
+  .contact {
+    background-image:url("images/typewriter.jpg");
+  }
 
   footer {
     background: #689581;
