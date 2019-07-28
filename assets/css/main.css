@@ -7227,7 +7227,7 @@ input, select, textarea {
 /* Wrapper (style1) */
 
   .contact {
-    background-image:url("images/typewriter.jpg");
+    background-image:url(images/typewriter.jpg);
   }
 
   footer {
