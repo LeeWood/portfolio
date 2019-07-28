@@ -7238,9 +7238,9 @@ input, select, textarea {
 
 /* Wrapper (style1) */
 
-  .contact {
+  .contact-container {
     background-image:url(bg-imgs/open_laptop_dark.jpg);
-    background-size: contain;
+    background-size: cover;
   }
 
 
