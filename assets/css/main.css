@@ -2241,9 +2241,20 @@ input, select, textarea {
 	form {
     margin: 0 0 2rem 0;
     background: white;
-    border-radius: 1rem;
+    border-radius: .5rem;
     padding: 15px;
-	}
+    opacity: .75;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  
+  form:hover {
+    opacity: 1;
+  }
+
+   .contact {
+    color: white;
+  }
 
 		form > :last-child {
 			margin-bottom: 0;
@@ -2259,7 +2270,8 @@ input, select, textarea {
 			-ms-flex-wrap: wrap;
 			flex-wrap: wrap;
 			width: calc(100% + 3rem);
-			margin: -1.5rem 0 2rem -1.5rem;
+      margin: -1.5rem 0 2rem -1.5rem;
+      color: #689581;
     }
     
 
@@ -2334,7 +2346,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background-color: transparent;
+		background-color: white;
 		border-radius: 4px;
 		border: none;
 		border: solid 1px;
@@ -7227,8 +7239,10 @@ input, select, textarea {
 /* Wrapper (style1) */
 
   .contact {
-    background-image:url(images/typewriter.jpg);
+    background-image:url(bg-imgs/open_laptop_dark.jpg);
+    background-size: contain;
   }
+
 
   footer {
     background: #689581;
